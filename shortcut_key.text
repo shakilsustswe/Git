@@ -19,6 +19,8 @@
 
                                                                                    3rd tutorial
                                ******************************************************
+                                         (stage  : working directory >>>>>> stagging area>>>>>>Local repository>>>Remote repository)
+
                                                    how to create git folder and add new files
 
                                       check   present working directory shortcut :- pwd
@@ -32,7 +34,8 @@
 
                                                                                    4th tutorial
                                ******************************************************
-                                          how to add files from working dir in staging area & remove files
+                                               how to add files from working dir in staging area & remove files
+                                     
                                      to add perticular file in staging area : git  add file_name
                                      to add all file (sub+) : git add -A
                                      to add all file(sub-) : git add .
@@ -46,3 +49,39 @@
 
                                                                                    5th tutorial
                                ******************************************************
+                                                          how to do git commit & un-commit
+                                      
+                                                 git commit -m "message here"
+                                                 git log //////to see git history 
+                                                 git reset --soft HEAD^(Local>>>>>stagging area)
+                                                 git reset HEAD^(local>>>>working directory)
+                                                 git reset --hard HEAd^(last all change delete
+                                                 use checkout instead reset
+                                                 need perticular commit id which know : 
+                                                 git log --oneline
+                                                 then
+                                                 git checkout commit_id
+                                                 to comeback main branch
+                                                 git checkout main
+
+
+
+
+                                                                     finally use git --help cmd
+                                                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+                                                                           Anisul Islam git tutorial
+********************************************************************************
+                                                                                   1st tutorial
+                               ******************************************************
+                                     Introduction,learning outcomes,why do we need git?,git vs githud               
+                                                                                   2nd tutorial
+                               ******************************************************
+                                                         how to set git environment setup and configuration
+                                      git download and install,git configuration
+                                      check git version :- "git --version"
+                                      git config :- git config --global user.name "user name"//////to set globally
+                                      git config :- git config --user.name "user name"//////to set locally
+                                      git config :- git config --global user.email "user email"//////to set globally
+                                      
+                                                    if you change user name ,then folow below cmd
+                                      git config :- git config --global user.name "user name"//////to set globally        
+                                      check git config list :- git config --list
+
+
+                                                                                   3rd tutorial
+                               ******************************************************
+                                                   how to create git folder and add new files
+
+                                      check   present working directory shortcut :- pwd
+                                      check all list : ls
+                                      create new folder : mkdir folder_name
+                                      git connect :- git init
+                                      create file : touch file_name.type //////or direct create kora jabe
+                                      to show hiden file: ls -a
+                                      to show git status: git status
+                                      
+
+                                                                                   4th tutorial
+                               ******************************************************
+                                          how to add files from working dir in staging area & remove files
+                                     to add perticular file in staging area : git  add file_name
+                                     to add all file (sub+) : git add -A
+                                     to add all file(sub-) : git add .
+
+                                     to add perticular type of file 
+                                     git add *.js   (dirctory wildcard)
+                                     git add**/*.js (directory & sub)
+                                     to restore : git restore file_name///to remove change 
+                                     to unstage: git rm --cached file_name.type
+                                     what a change : git diff 
+
+                                                                                   5th tutorial
+                               ******************************************************
